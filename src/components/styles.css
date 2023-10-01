@@ -1,0 +1,170 @@
+.app-header {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+.app-header-program-name {
+  width: fit-content;
+  /* London Internship Program */
+
+  width: 277px;
+  height: 30px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #1d4ed8;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.app-header-actions {
+  display: flex;
+  align-items: center;
+}
+.app-header-icon {
+  /* Tag */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+
+  width: 40px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 0.5px solid #ececec;
+  box-shadow: 0px 4px 25px rgba(141, 141, 141, 0.05);
+  border-radius: 8px;
+  margin: 0px 5px;
+}
+.app-header-dropdown-value {
+  color: #1d4ed8;
+  font-size: 16px;
+}
+.app-header-dropdown {
+  flex: 1;
+  order: 1;
+}
+.app-header-actions {
+  flex: 1;
+  order: 2;
+}
+.app-header-action-dropdown {
+  flex: 1;
+  order: 3;
+}
+.app-body-filters {
+  text-align: left;
+  background-color: white;
+  width: max-content;
+  margin-left: 50px;
+  height: max-content;
+  border-radius: 8px;
+}
+.app-body-filters-header {
+  display: flex;
+  /* Frame 3 */
+
+  align-items: center;
+  padding: 18px 16px;
+  gap: 166px;
+
+  width: 300px;
+  height: 58px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  border-bottom: 1px solid #eee;
+}
+.app-body-filters-header-name {
+  /* Filters */
+
+  margin: 0 auto;
+  width: 42px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  display: flex;
+  align-items: center;
+
+  color: #0b0b0b;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.app-body-filters-header-count {
+  /* 0 Selected */
+
+  margin: 0 auto;
+  width: 63px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+  display: flex;
+  align-items: center;
+
+  color: #0b0b0b;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.app-body-filter-name {
+  /* Personal Information */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  display: flex;
+  align-items: center;
+
+  color: #0b0b0b;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* Frame 2 */
+
+  /* Auto layout */
+  display: flex;
+  align-items: center;
+  padding: 18px 16px;
+
+  width: 300px;
+  border-bottom: 1px solid #eee;
+}

@@ -1,0 +1,129 @@
+.app-body {
+  display: flex;
+}
+.app-body-applicant-list {
+  text-align: left;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 16px;
+  flex: 1;
+}
+.app-body-applicant-list-header {
+  margin: 10px 20px;
+  /* 247 Candidates */
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  color: #1d4ed8;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.applicant {
+  margin-left: 20px;
+  border-bottom: 1px solid #eee;
+}
+.applicant-details {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+.applicant-name {
+  /* Aaliyah Sanderson */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+  color: #000000;
+}
+.applicant-place {
+  /* Riyadh, Saudi Arabia */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+  color: #000000;
+}
+.applicant-degree {
+  /* Bachelor - Cambridge University (2023 - 2023) */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+  color: #000000;
+}
+.applicant-tags {
+  margin: 10px;
+  display: flex;
+}
+.applicant-tag {
+  /* #top_candidate */
+
+  height: 12px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  color: #1d4ed8;
+}
+.applicant-skills {
+  margin: 10px;
+  display: flex;
+}
+.applicant-skill {
+  /* Placement Tag */
+
+  background: #f3fafc;
+  border-radius: 16px;
+
+  /* New York */
+
+  width: 37px;
+  height: 12px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 12px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #037092;
+  text-align: center;
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
